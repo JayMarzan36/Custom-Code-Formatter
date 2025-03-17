@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "echo Hello"
+        },
+        {
+            "label": "Clean ._* files",
+            "type": "shell",
+            "command": "find . -name '._*' -type f -delete",
+            "problemMatcher": [],
+            "detail": "Deletes all ._ files in the current workspace."
+        }
+    ]
+}
